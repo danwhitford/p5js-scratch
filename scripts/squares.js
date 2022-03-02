@@ -30,12 +30,10 @@ function draw() {
             }
         }
     }
-    saveFrames('frames')
-    noLoop()
-    // if (counter > 10) {
-    //     noLoop()
-    // }
-    // saveCanvas('canvas'+counter, 'png')
-    // counter++
+    if (counter > 10) {
+        noLoop()
+    }
+    saveCanvas('canvas'+counter, 'png')
+    counter++
 }
 
