@@ -7,7 +7,7 @@ let counter = 0;
 function setup() {
     createCanvas(501, 501);
     // background(64);
-    // noLoop();
+    noLoop();
     // frameRate(1)
 }
 
@@ -30,10 +30,10 @@ function draw() {
             }
         }
     }
-    if (counter > 10) {
-        noLoop()
-    }
-    saveCanvas('canvas'+counter, 'png')
-    counter++
+    // if (counter > 10) {
+    //     noLoop()
+    // }
+    // saveCanvas('canvas'+counter, 'png')
+    // counter++
 }
 
