@@ -44,4 +44,8 @@ export default class SimpleTurtle {
             this.y += l
         }
     }
+
+    isOutOfBounds() {
+        return this.x < 0 || this.x > this.p5.width || this.y < 0 || this.y > this.p5.height
+    }
 }
